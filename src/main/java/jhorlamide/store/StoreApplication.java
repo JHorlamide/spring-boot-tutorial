@@ -1,7 +1,5 @@
 package jhorlamide.store;
 
-import jhorlamide.store.exercise2.User;
-import jhorlamide.store.exercise2.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
