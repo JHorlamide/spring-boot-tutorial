@@ -1,0 +1,1 @@
+alter table wishlists rename to wishlist;
