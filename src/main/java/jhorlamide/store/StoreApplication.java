@@ -1,14 +1,15 @@
 package jhorlamide.store;
 
-import org.springframework.boot.SpringApplication;
+import jhorlamide.store.entities.Profile;
+import jhorlamide.store.entities.User;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class StoreApplication {
 
   public static void main(String[] args) {
-    ApplicationContext appContext = SpringApplication.run(StoreApplication.class, args);
+    // ApplicationContext appContext = SpringApplication.run(StoreApplication.class, args);
+
   }
 
 }
