@@ -55,7 +55,7 @@ public class User {
       joinColumns = @JoinColumn(name = "user_id"),
       inverseJoinColumns = @JoinColumn(name = "product_id")
   )
-  private Set<Product> products = new HashSet<>();
+  private Set<Product> wishlist = new HashSet<>();
 
   public void addAddress(Address address) {
     addresses.add(address);
